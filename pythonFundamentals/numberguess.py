@@ -1,5 +1,9 @@
 import random
-
+"""
+Asks the user to define a range,
+then checks if the user has guessed the number or not
+and shows how many tries were used
+"""
 def main():
     smaller = int(input("Enter the smaller number: "))
     larger = int(input("Enter the larger number: "))
